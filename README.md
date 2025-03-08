@@ -9,6 +9,10 @@ Based on the beangulp framework: https://github.com/beancount/beangulp.
 ## Installation
 ``` pip install git+https://github.com/AmmarShaqeel/maybank-importer.git```
 
+Requires popplertools.
+For OpenSuse, run:
+```sudo zypper install poppler-tools```
+
 ## Usage
 Create a setup.py file as below.
 Substitute the account/card number with your own.
