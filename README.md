@@ -18,6 +18,8 @@ For OpenSuse, run:
 Create a setup.py file as below.
 Substitute the account/card number with your own.
 
+You can also optionally include a password, if your files are password protected.
+
 Then run:
 
 ```python import.py extract YourCardStatement.PDF```
