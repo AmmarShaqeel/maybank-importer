@@ -9,7 +9,7 @@ Based on the beangulp framework: https://github.com/beancount/beangulp.
 ## Installation
 ``` pip install git+https://github.com/AmmarShaqeel/maybank-importer.git```
 
-Requires popplertools (specifically pdftotext).
+Requires popplertools (specifically pdftotext): https://poppler.freedesktop.org/
 
 For OpenSuse, run:
 ```sudo zypper install poppler-tools```
