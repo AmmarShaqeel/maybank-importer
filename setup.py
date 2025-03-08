@@ -10,7 +10,7 @@ setup(
     install_requires=[
         "beancount>=3.0.0",
         "python-dateutil>=2.8.0",
-         "python-poppler>=0.4.1"",
+         "python-poppler>=0.4.1",
         "beangulp>=0.2.0",
     ],
     python_requires=">=3.7",
