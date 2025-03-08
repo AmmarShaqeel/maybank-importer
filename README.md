@@ -7,7 +7,7 @@ Based on the beangulp framework: https://github.com/beancount/beangulp.
 
 
 ## Installation
-``` pip install git+https://github.com/AmmarShaqeel/rajhi_importer.git```
+``` pip install git+https://github.com/AmmarShaqeel/maybank-importer.git```
 
 ## Usage
 Create a setup.py file as below.
@@ -22,11 +22,11 @@ Setup.py File Example:
 
 
 ```python
-from rajhi_importer import rajhi_credit
+from maybank_importer import maybank
 
 importers = [
 
-    rajhi_credit.Importer("Liabilities:Rajhi:CashbackCard", "SAR", "0000 00XX XXXX 0000"),
+    maybank.Importer("Assets:Maybank:MAE", "MYR", "164324-550652"),
 ]
 
 def clean_up_descriptions(extracted_entries):
