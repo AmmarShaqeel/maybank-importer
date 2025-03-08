@@ -98,7 +98,6 @@ class Importer(beangulp.Importer):
         # Get the actual statement's date from the contents of the file.
         text = pdf_to_text(filepath)
         match = re.search(':\s+(\d{2}/\d{2}/\d{2})', text)
-        print(match)
         if match:
             return parse_datetime(match.group(1)).date()
 
